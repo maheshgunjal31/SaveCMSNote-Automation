@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <Console name="ConsoleAppender"
+                 target="SYSTEM_OUT">
+
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c - %m%n"/>
+
+        </Console>
+
+        <RollingFile
+                name="AllLogs"
+                fileName="logs/execution.log"
+                filePattern="logs/archive/execution-%d{yyyy-MM-dd}.log">
+
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c - %m%n"/>
+
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+
+        </RollingFile>
+
+        <File
+                name="FailedTests"
+                fileName="logs/failed-tests.log">
+
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c - %m%n"/>
+
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="info">
+
+            <AppenderRef ref="ConsoleAppender"/>
+
+            <AppenderRef ref="AllLogs"/>
+
+        </Root>
+
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,3354 @@
+2026-10-04 13:05:49 INFO  utils.Log - Executing Test Case : TC01
+2026-10-04 13:05:49 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:49 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Sample Note added to claimant 4235807 by Mahesh"
+}
+2026-10-04 13:05:53 INFO  utils.Log - Executing Test Case : TC02
+2026-10-04 13:05:53 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:53 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "MaheshGunjal_AddedUpdatedNote"
+}
+2026-10-04 13:05:54 INFO  utils.Log - Executing Test Case : TC03
+2026-10-04 13:05:54 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:54 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 13:05:55 INFO  utils.Log - Executing Test Case : TC04
+2026-10-04 13:05:55 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:55 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 13:05:56 INFO  utils.Log - Executing Test Case : TC05
+2026-10-04 13:05:56 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:56 INFO  utils.Log - {
+  "cmsclaimId" : "8888888",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 13:05:57 INFO  utils.Log - Executing Test Case : TC06
+2026-10-04 13:05:57 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:57 INFO  utils.Log - {
+  "cmsclaimId" : "AbC1234@",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 13:05:58 INFO  utils.Log - Executing Test Case : TC07
+2026-10-04 13:05:58 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:58 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "4235809",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 13:05:58 INFO  utils.Log - Executing Test Case : TC08
+2026-10-04 13:05:58 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:58 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 13:05:59 INFO  utils.Log - Executing Test Case : TC09
+2026-10-04 13:05:59 INFO  utils.Log - Request Body : 
+2026-10-04 13:05:59 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "true",
+  "note" : "String Value as true in SendNotification node"
+}
+2026-10-04 13:06:01 INFO  utils.Log - Executing Test Case : TC10
+2026-10-04 13:06:01 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:01 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "false",
+  "note" : "String Value as true in SendNotification node"
+}
+2026-10-04 13:06:01 INFO  utils.Log - Executing Test Case : TC11
+2026-10-04 13:06:01 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:01 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : 1,
+  "note" : "Numeric One"
+}
+2026-10-04 13:06:03 INFO  utils.Log - Executing Test Case : TC12
+2026-10-04 13:06:03 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:03 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "1",
+  "note" : "String Value as 1"
+}
+2026-10-04 13:06:04 INFO  utils.Log - Executing Test Case : TC13
+2026-10-04 13:06:04 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:04 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "0",
+  "note" : "String Value as 0"
+}
+2026-10-04 13:06:05 INFO  utils.Log - Executing Test Case : TC14
+2026-10-04 13:06:05 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:05 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : 0,
+  "note" : "Numeric Value as 0"
+}
+2026-10-04 13:06:05 INFO  utils.Log - Executing Test Case : TC15
+2026-10-04 13:06:05 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:05 INFO  utils.Log - {
+  "cmsclaimId" : "4714002",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Long Description"
+}
+2026-10-04 13:06:07 INFO  utils.Log - Executing Test Case : TC16
+2026-10-04 13:06:07 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:07 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Claimant Mapping Validation"
+}
+2026-10-04 13:06:07 INFO  utils.Log - Executing Test Case : TC17
+2026-10-04 13:06:07 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:07 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Docket Mapping Validation"
+}
+2026-10-04 13:06:08 INFO  utils.Log - Executing Test Case : TC18
+2026-10-04 13:06:08 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:08 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "4235809,4235810",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Multiple Claimants"
+}
+2026-10-04 13:06:09 INFO  utils.Log - Executing Test Case : TC19
+2026-10-04 13:06:09 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:09 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433475,88433476",
+  "sendNotification" : true,
+  "note" : "Multiple Dockets"
+}
+2026-10-04 13:06:10 INFO  utils.Log - Executing Test Case : TC20
+2026-10-04 13:06:10 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:10 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 13:06:11 INFO  utils.Log - Executing Test Case : TC21
+2026-10-04 13:06:11 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:11 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 13:06:12 INFO  utils.Log - Executing Test Case : TC22
+2026-10-04 13:06:12 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:12 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 13:06:13 INFO  utils.Log - Executing Test Case : TC23
+2026-10-04 13:06:13 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:13 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 13:06:14 INFO  utils.Log - Executing Test Case : TC24
+2026-10-04 13:06:14 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:14 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 13:06:15 INFO  utils.Log - Executing Test Case : TC25
+2026-10-04 13:06:15 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:15 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : ""
+}
+2026-10-04 13:06:16 INFO  utils.Log - Executing Test Case : TC26
+2026-10-04 13:06:16 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:16 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : ""
+}
+2026-10-04 13:06:17 INFO  utils.Log - Executing Test Case : TC27
+2026-10-04 13:06:17 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:17 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4@235#828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Added Note on 25_August_2026"
+}
+2026-10-04 13:06:18 INFO  utils.Log - Executing Test Case : TC28
+2026-10-04 13:06:18 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:18 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "884@334#97",
+  "sendNotification" : true,
+  "note" : "Added Note"
+}
+2026-10-04 13:06:19 INFO  utils.Log - Executing Test Case : TC29
+2026-10-04 13:06:19 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:19 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 13:06:20 INFO  utils.Log - Executing Test Case : TC30
+2026-10-04 13:06:20 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:20 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 13:06:21 INFO  utils.Log - Executing Test Case : TC31
+2026-10-04 13:06:21 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:21 INFO  utils.Log - {
+  "cmsclaimId" : "47140060",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 13:06:22 INFO  utils.Log - Executing Test Case : TC32
+2026-10-04 13:06:22 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:22 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 13:06:23 INFO  utils.Log - Executing Test Case : TC33
+2026-10-04 13:06:23 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:23 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 13:06:24 INFO  utils.Log - Executing Test Case : TC34
+2026-10-04 13:06:24 INFO  utils.Log - Request Body : 
+2026-10-04 13:06:24 INFO  utils.Log - {
+  "cmsclaimId" : "4714007",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 13:20:43 INFO  utils.Log - Executing Test Case : TC01
+2026-10-04 13:20:43 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:43 INFO  utils.Log - {
+  "claimantId" : "4235807",
+  "cmsclaimId" : "4713992",
+  "docketId" : "",
+  "note" : "Sample Note added to claimant 4235807 by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 13:20:46 INFO  utils.Log - Executing Test Case : TC02
+2026-10-04 13:20:46 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:46 INFO  utils.Log - {
+  "claimantId" : "4235807",
+  "cmsclaimId" : "4713992",
+  "docketId" : "",
+  "note" : "MaheshGunjal_AddedUpdatedNote",
+  "sendNotification" : true
+}
+2026-10-04 13:20:46 INFO  utils.Log - Executing Test Case : TC03
+2026-10-04 13:20:46 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:46 INFO  utils.Log - {
+  "claimantId" : "4235809",
+  "cmsclaimId" : "4713993",
+  "docketId" : "88433475",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 13:20:46 INFO  utils.Log - Executing Test Case : TC04
+2026-10-04 13:20:46 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:46 INFO  utils.Log - {
+  "claimantId" : "4235809",
+  "cmsclaimId" : "4713993",
+  "docketId" : "88433475",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 13:20:46 INFO  utils.Log - Executing Test Case : TC05
+2026-10-04 13:20:46 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:46 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "8888888",
+  "docketId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC06
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "AbC1234@",
+  "docketId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC07
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235809",
+  "cmsclaimId" : "",
+  "docketId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC08
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "",
+  "docketId" : "88433475",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC09
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4713994",
+  "docketId" : "",
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "true"
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC10
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4713994",
+  "docketId" : "",
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "false"
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC11
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4713994",
+  "docketId" : "",
+  "note" : "Numeric One",
+  "sendNotification" : 1
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC12
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4713994",
+  "docketId" : "",
+  "note" : "String Value as 1",
+  "sendNotification" : "1"
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC13
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4713994",
+  "docketId" : "",
+  "note" : "String Value as 0",
+  "sendNotification" : "0"
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC14
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4713994",
+  "docketId" : "",
+  "note" : "Numeric Value as 0",
+  "sendNotification" : 0
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC15
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235809",
+  "cmsclaimId" : "4714002",
+  "docketId" : "88433475",
+  "note" : "Long Description",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC16
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235809",
+  "cmsclaimId" : "4713993",
+  "docketId" : "88433475",
+  "note" : "Claimant Mapping Validation",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC17
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235809",
+  "cmsclaimId" : "4713993",
+  "docketId" : "88433475",
+  "note" : "Docket Mapping Validation",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC18
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235809,4235810",
+  "cmsclaimId" : "4714005",
+  "docketId" : "",
+  "note" : "Multiple Claimants",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC19
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714005",
+  "docketId" : "88433475,88433476",
+  "note" : "Multiple Dockets",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC20
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235828",
+  "cmsclaimId" : "4714006",
+  "docketId" : "",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC21
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235828",
+  "cmsclaimId" : "4714006",
+  "docketId" : "",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC22
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235828",
+  "cmsclaimId" : "4714006",
+  "docketId" : "",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC23
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714005",
+  "docketId" : "88433497",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC24
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714005",
+  "docketId" : "88433497",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC25
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235828",
+  "cmsclaimId" : "4714006",
+  "docketId" : "",
+  "note" : "",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC26
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714006",
+  "docketId" : "88433497",
+  "note" : "",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC27
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4@235#828",
+  "cmsclaimId" : "4714006",
+  "docketId" : "",
+  "note" : "Added Note on 25_August_2026",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC28
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714005",
+  "docketId" : "884@334#97",
+  "note" : "Added Note",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC29
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714006",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC30
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235828",
+  "cmsclaimId" : "4714006",
+  "docketId" : "",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC31
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "4235828",
+  "cmsclaimId" : "47140060",
+  "docketId" : "",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC32
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714006",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC33
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 13:20:47 INFO  utils.Log - Executing Test Case : TC34
+2026-10-04 13:20:47 INFO  utils.Log - Request Body : 
+2026-10-04 13:20:47 INFO  utils.Log - {
+  "claimantId" : "",
+  "cmsclaimId" : "4714007",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 14:13:24 INFO  utils.Log - Executing Test Case : TC01
+2026-10-04 14:13:24 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:24 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Sample Note added to claimant 4235807 by Mahesh"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC02
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "MaheshGunjal_AddedUpdatedNote"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC03
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC04
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC05
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "8888888",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC06
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "AbC1234@",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC07
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "4235809",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC08
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC09
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "true",
+  "note" : "String Value as true in SendNotification node"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC10
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "false",
+  "note" : "String Value as true in SendNotification node"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC11
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : 1,
+  "note" : "Numeric One"
+}
+2026-10-04 14:13:27 INFO  utils.Log - Executing Test Case : TC12
+2026-10-04 14:13:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:27 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "1",
+  "note" : "String Value as 1"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC13
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "0",
+  "note" : "String Value as 0"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC14
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : 0,
+  "note" : "Numeric Value as 0"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC15
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714002",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Long Description"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC16
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Claimant Mapping Validation"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC17
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Docket Mapping Validation"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC18
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "4235809,4235810",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Multiple Claimants"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC19
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433475,88433476",
+  "sendNotification" : true,
+  "note" : "Multiple Dockets"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC20
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC21
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC22
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC23
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC24
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC25
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : ""
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC26
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : ""
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC27
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4@235#828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Added Note on 25_August_2026"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC28
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "884@334#97",
+  "sendNotification" : true,
+  "note" : "Added Note"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC29
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC30
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC31
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "47140060",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC32
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC33
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:13:28 INFO  utils.Log - Executing Test Case : TC34
+2026-10-04 14:13:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:13:28 INFO  utils.Log - {
+  "cmsclaimId" : "4714007",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:27:23 INFO  utils.Log - Executing Test Case : TC01
+2026-10-04 14:27:23 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:23 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "note" : "Sample Note added to claimant 4235807 by Mahesh",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235807"
+}
+2026-10-04 14:27:32 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:32 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:32 INFO  utils.Log - {
+    "noteId": "113167468",
+    "statusCode": 200,
+    "cmsClaimID": "4713992",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:33 INFO  utils.Log - TC01 Expected HTTP Status : 200
+2026-10-04 14:27:33 INFO  utils.Log - TC01 Actual HTTP Status : 200
+2026-10-04 14:27:33 INFO  utils.Log - TC01 PASSED
+2026-10-04 14:27:33 INFO  utils.Log - Executing Test Case : TC02
+2026-10-04 14:27:33 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:33 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "note" : "MaheshGunjal_AddedUpdatedNote",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235807"
+}
+2026-10-04 14:27:35 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:35 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:35 INFO  utils.Log - {
+    "noteId": "113167469",
+    "statusCode": 200,
+    "cmsClaimID": "4713992",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:35 INFO  utils.Log - TC02 Expected HTTP Status : 200
+2026-10-04 14:27:35 INFO  utils.Log - TC02 Actual HTTP Status : 200
+2026-10-04 14:27:35 INFO  utils.Log - TC02 PASSED
+2026-10-04 14:27:35 INFO  utils.Log - Executing Test Case : TC03
+2026-10-04 14:27:35 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:35 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "docketId" : "88433475",
+  "claimantId" : "4235809"
+}
+2026-10-04 14:27:37 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:37 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:37 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:37 INFO  utils.Log - TC03 Expected HTTP Status : 200
+2026-10-04 14:27:37 INFO  utils.Log - TC03 Actual HTTP Status : 200
+2026-10-04 14:27:37 INFO  utils.Log - TC03 PASSED
+2026-10-04 14:27:37 INFO  utils.Log - Executing Test Case : TC04
+2026-10-04 14:27:37 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:37 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "docketId" : "88433475",
+  "claimantId" : "4235809"
+}
+2026-10-04 14:27:39 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:39 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:39 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:39 INFO  utils.Log - TC04 Expected HTTP Status : 200
+2026-10-04 14:27:39 INFO  utils.Log - TC04 Actual HTTP Status : 200
+2026-10-04 14:27:39 INFO  utils.Log - TC04 PASSED
+2026-10-04 14:27:39 INFO  utils.Log - Executing Test Case : TC05
+2026-10-04 14:27:39 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:39 INFO  utils.Log - {
+  "cmsclaimId" : "8888888",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:40 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:27:40 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:40 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "8888888",
+    "message": null,
+    "errorMessage": "Claim does not Exist for CMSClaimId 8888888"
+}
+2026-10-04 14:27:40 INFO  utils.Log - TC05 Expected HTTP Status : 400
+2026-10-04 14:27:40 INFO  utils.Log - TC05 Actual HTTP Status : 400
+2026-10-04 14:27:40 INFO  utils.Log - TC05 PASSED
+2026-10-04 14:27:40 INFO  utils.Log - Executing Test Case : TC06
+2026-10-04 14:27:40 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:40 INFO  utils.Log - {
+  "cmsclaimId" : "AbC1234@",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:41 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:27:41 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:41 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "AbC1234@",
+    "message": null,
+    "errorMessage": "Note could not be added, Error: Conversion failed when converting the varchar value 'AbC1234@' to data type int."
+}
+2026-10-04 14:27:41 INFO  utils.Log - Executing Test Case : TC07
+2026-10-04 14:27:41 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:41 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235809"
+}
+2026-10-04 14:27:42 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:27:42 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:42 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:27:42 INFO  utils.Log - TC07 Expected HTTP Status : 400
+2026-10-04 14:27:42 INFO  utils.Log - TC07 Actual HTTP Status : 400
+2026-10-04 14:27:42 INFO  utils.Log - TC07 PASSED
+2026-10-04 14:27:42 INFO  utils.Log - Executing Test Case : TC08
+2026-10-04 14:27:42 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:42 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "docketId" : "88433475",
+  "claimantId" : ""
+}
+2026-10-04 14:27:43 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:27:43 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:43 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:27:43 INFO  utils.Log - TC08 Expected HTTP Status : 400
+2026-10-04 14:27:43 INFO  utils.Log - TC08 Actual HTTP Status : 400
+2026-10-04 14:27:43 INFO  utils.Log - TC08 PASSED
+2026-10-04 14:27:43 INFO  utils.Log - Executing Test Case : TC09
+2026-10-04 14:27:43 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:43 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "true",
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:45 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:45 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:45 INFO  utils.Log - {
+    "noteId": "113167472",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:45 INFO  utils.Log - TC09 Expected HTTP Status : 200
+2026-10-04 14:27:45 INFO  utils.Log - TC09 Actual HTTP Status : 200
+2026-10-04 14:27:45 INFO  utils.Log - TC09 PASSED
+2026-10-04 14:27:45 INFO  utils.Log - Executing Test Case : TC10
+2026-10-04 14:27:45 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:45 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "false",
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:46 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:46 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:46 INFO  utils.Log - {
+    "noteId": "113167473",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:46 INFO  utils.Log - TC10 Expected HTTP Status : 200
+2026-10-04 14:27:46 INFO  utils.Log - TC10 Actual HTTP Status : 200
+2026-10-04 14:27:46 INFO  utils.Log - TC10 PASSED
+2026-10-04 14:27:46 INFO  utils.Log - Executing Test Case : TC11
+2026-10-04 14:27:46 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:46 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "note" : "Numeric One",
+  "sendNotification" : 1,
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:48 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:48 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:48 INFO  utils.Log - {
+    "noteId": "113167474",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:48 INFO  utils.Log - TC11 Expected HTTP Status : 200
+2026-10-04 14:27:48 INFO  utils.Log - TC11 Actual HTTP Status : 200
+2026-10-04 14:27:48 INFO  utils.Log - TC11 PASSED
+2026-10-04 14:27:48 INFO  utils.Log - Executing Test Case : TC12
+2026-10-04 14:27:48 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:48 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "note" : "String Value as 1",
+  "sendNotification" : "1",
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:49 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:27:49 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:49 INFO  utils.Log - {
+    "errors": {
+        "sendNotification": [
+            "Could not convert string to boolean: 1. Path 'sendNotification', line 1, position 73."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-e1ced6a3ede0c10f73bb073562d8d6a5-24e5b300e6a03a6b-00"
+}
+2026-10-04 14:27:49 INFO  utils.Log - Executing Test Case : TC13
+2026-10-04 14:27:49 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:49 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "note" : "String Value as 0",
+  "sendNotification" : "0",
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:50 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:27:50 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:50 INFO  utils.Log - {
+    "errors": {
+        "sendNotification": [
+            "Could not convert string to boolean: 0. Path 'sendNotification', line 1, position 73."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-f3c93a68114ecc3b94f94d053a138b5e-873cf33b2414b555-00"
+}
+2026-10-04 14:27:50 INFO  utils.Log - Executing Test Case : TC14
+2026-10-04 14:27:50 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:50 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "note" : "Numeric Value as 0",
+  "sendNotification" : 0,
+  "docketId" : "",
+  "claimantId" : ""
+}
+2026-10-04 14:27:51 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:51 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:51 INFO  utils.Log - {
+    "noteId": "113167475",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:51 INFO  utils.Log - TC14 Expected HTTP Status : 200
+2026-10-04 14:27:51 INFO  utils.Log - TC14 Actual HTTP Status : 200
+2026-10-04 14:27:51 INFO  utils.Log - TC14 PASSED
+2026-10-04 14:27:51 INFO  utils.Log - Executing Test Case : TC15
+2026-10-04 14:27:51 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:51 INFO  utils.Log - {
+  "cmsclaimId" : "4714002",
+  "note" : "Long Description",
+  "sendNotification" : true,
+  "docketId" : "88433475",
+  "claimantId" : "4235809"
+}
+2026-10-04 14:27:53 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:53 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:53 INFO  utils.Log - {
+    "noteId": "113167477",
+    "statusCode": 200,
+    "cmsClaimID": "4714002",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:53 INFO  utils.Log - TC15 Expected HTTP Status : 200
+2026-10-04 14:27:53 INFO  utils.Log - TC15 Actual HTTP Status : 200
+2026-10-04 14:27:53 INFO  utils.Log - TC15 PASSED
+2026-10-04 14:27:53 INFO  utils.Log - Executing Test Case : TC16
+2026-10-04 14:27:53 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:53 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "note" : "Claimant Mapping Validation",
+  "sendNotification" : true,
+  "docketId" : "88433475",
+  "claimantId" : "4235809"
+}
+2026-10-04 14:27:55 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:55 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:55 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:55 INFO  utils.Log - TC16 Expected HTTP Status : 200
+2026-10-04 14:27:55 INFO  utils.Log - TC16 Actual HTTP Status : 200
+2026-10-04 14:27:55 INFO  utils.Log - TC16 PASSED
+2026-10-04 14:27:55 INFO  utils.Log - Executing Test Case : TC17
+2026-10-04 14:27:55 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:55 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "note" : "Docket Mapping Validation",
+  "sendNotification" : true,
+  "docketId" : "88433475",
+  "claimantId" : "4235809"
+}
+2026-10-04 14:27:57 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:57 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:57 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:57 INFO  utils.Log - TC17 Expected HTTP Status : 200
+2026-10-04 14:27:57 INFO  utils.Log - TC17 Actual HTTP Status : 200
+2026-10-04 14:27:57 INFO  utils.Log - TC17 PASSED
+2026-10-04 14:27:57 INFO  utils.Log - Executing Test Case : TC18
+2026-10-04 14:27:57 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:57 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "note" : "Multiple Claimants",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235809,4235810"
+}
+2026-10-04 14:27:59 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:27:59 INFO  utils.Log - Response Body : 
+2026-10-04 14:27:59 INFO  utils.Log - {
+    "noteId": "113167480",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:27:59 INFO  utils.Log - TC18 Expected HTTP Status : 200
+2026-10-04 14:27:59 INFO  utils.Log - TC18 Actual HTTP Status : 200
+2026-10-04 14:27:59 INFO  utils.Log - TC18 PASSED
+2026-10-04 14:27:59 INFO  utils.Log - Executing Test Case : TC19
+2026-10-04 14:27:59 INFO  utils.Log - Request Body : 
+2026-10-04 14:27:59 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "note" : "Multiple Dockets",
+  "sendNotification" : true,
+  "docketId" : "88433475,88433476",
+  "claimantId" : ""
+}
+2026-10-04 14:28:00 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:00 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:00 INFO  utils.Log - {
+    "noteId": "113167481",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:00 INFO  utils.Log - Executing Test Case : TC20
+2026-10-04 14:28:00 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:00 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235828"
+}
+2026-10-04 14:28:01 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:01 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:01 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:28:01 INFO  utils.Log - TC20 Expected HTTP Status : 400
+2026-10-04 14:28:01 INFO  utils.Log - TC20 Actual HTTP Status : 400
+2026-10-04 14:28:01 INFO  utils.Log - TC20 PASSED
+2026-10-04 14:28:01 INFO  utils.Log - Executing Test Case : TC21
+2026-10-04 14:28:01 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:01 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235828"
+}
+2026-10-04 14:28:04 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:04 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:04 INFO  utils.Log - {
+    "noteId": "113167482",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:04 INFO  utils.Log - TC21 Expected HTTP Status : 200
+2026-10-04 14:28:04 INFO  utils.Log - TC21 Actual HTTP Status : 200
+2026-10-04 14:28:04 INFO  utils.Log - TC21 PASSED
+2026-10-04 14:28:04 INFO  utils.Log - Executing Test Case : TC22
+2026-10-04 14:28:04 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:04 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235828"
+}
+2026-10-04 14:28:05 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:05 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:05 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:28:05 INFO  utils.Log - TC22 Expected HTTP Status : 400
+2026-10-04 14:28:05 INFO  utils.Log - TC22 Actual HTTP Status : 400
+2026-10-04 14:28:05 INFO  utils.Log - TC22 PASSED
+2026-10-04 14:28:05 INFO  utils.Log - Executing Test Case : TC23
+2026-10-04 14:28:05 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:05 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "docketId" : "88433497",
+  "claimantId" : ""
+}
+2026-10-04 14:28:07 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:07 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:07 INFO  utils.Log - {
+    "noteId": "113160293",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:07 INFO  utils.Log - TC23 Expected HTTP Status : 200
+2026-10-04 14:28:07 INFO  utils.Log - TC23 Actual HTTP Status : 200
+2026-10-04 14:28:07 INFO  utils.Log - TC23 PASSED
+2026-10-04 14:28:07 INFO  utils.Log - Executing Test Case : TC24
+2026-10-04 14:28:07 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:07 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "docketId" : "88433497",
+  "claimantId" : ""
+}
+2026-10-04 14:28:08 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:08 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:08 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714005",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:28:08 INFO  utils.Log - TC24 Expected HTTP Status : 400
+2026-10-04 14:28:08 INFO  utils.Log - TC24 Actual HTTP Status : 400
+2026-10-04 14:28:08 INFO  utils.Log - TC24 PASSED
+2026-10-04 14:28:08 INFO  utils.Log - Executing Test Case : TC25
+2026-10-04 14:28:08 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:08 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235828"
+}
+2026-10-04 14:28:09 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:09 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:09 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Please provide note, it should not be blank."
+}
+2026-10-04 14:28:09 INFO  utils.Log - TC25 Expected HTTP Status : 400
+2026-10-04 14:28:09 INFO  utils.Log - TC25 Actual HTTP Status : 400
+2026-10-04 14:28:09 INFO  utils.Log - TC25 PASSED
+2026-10-04 14:28:09 INFO  utils.Log - Executing Test Case : TC26
+2026-10-04 14:28:09 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:09 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "",
+  "sendNotification" : true,
+  "docketId" : "88433497",
+  "claimantId" : ""
+}
+2026-10-04 14:28:10 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:10 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:10 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Please provide note, it should not be blank."
+}
+2026-10-04 14:28:10 INFO  utils.Log - TC26 Expected HTTP Status : 400
+2026-10-04 14:28:10 INFO  utils.Log - TC26 Actual HTTP Status : 400
+2026-10-04 14:28:10 INFO  utils.Log - TC26 PASSED
+2026-10-04 14:28:10 INFO  utils.Log - Executing Test Case : TC27
+2026-10-04 14:28:10 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:10 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "Added Note on 25_August_2026",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4@235#828"
+}
+2026-10-04 14:28:11 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:11 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:11 INFO  utils.Log - {
+    "noteId": "113167484",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:11 INFO  utils.Log - TC27 Expected HTTP Status : 200
+2026-10-04 14:28:11 INFO  utils.Log - TC27 Actual HTTP Status : 200
+2026-10-04 14:28:11 INFO  utils.Log - TC27 PASSED
+2026-10-04 14:28:11 INFO  utils.Log - Executing Test Case : TC28
+2026-10-04 14:28:11 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:11 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "note" : "Added Note",
+  "sendNotification" : true,
+  "docketId" : "884@334#97",
+  "claimantId" : ""
+}
+2026-10-04 14:28:12 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:12 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:12 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714005",
+    "message": null,
+    "errorMessage": "Note could not be added, Error: Conversion failed when converting the varchar value '884@334#97' to data type int."
+}
+2026-10-04 14:28:12 INFO  utils.Log - TC28 Expected HTTP Status : 400
+2026-10-04 14:28:12 INFO  utils.Log - TC28 Actual HTTP Status : 400
+2026-10-04 14:28:12 INFO  utils.Log - TC28 PASSED
+2026-10-04 14:28:12 INFO  utils.Log - Executing Test Case : TC29
+2026-10-04 14:28:12 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:12 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "docketId" : "88433497",
+  "claimantId" : ""
+}
+2026-10-04 14:28:13 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:13 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:13 INFO  utils.Log - {
+    "noteId": "113160498",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:13 INFO  utils.Log - TC29 Expected HTTP Status : 200
+2026-10-04 14:28:13 INFO  utils.Log - TC29 Actual HTTP Status : 200
+2026-10-04 14:28:13 INFO  utils.Log - TC29 PASSED
+2026-10-04 14:28:13 INFO  utils.Log - Executing Test Case : TC30
+2026-10-04 14:28:13 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:13 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235828"
+}
+2026-10-04 14:28:16 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:16 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:16 INFO  utils.Log - {
+    "noteId": "113167486",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:16 INFO  utils.Log - TC30 Expected HTTP Status : 200
+2026-10-04 14:28:16 INFO  utils.Log - TC30 Actual HTTP Status : 200
+2026-10-04 14:28:16 INFO  utils.Log - TC30 PASSED
+2026-10-04 14:28:16 INFO  utils.Log - Executing Test Case : TC31
+2026-10-04 14:28:16 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:16 INFO  utils.Log - {
+  "cmsclaimId" : "47140060",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "docketId" : "",
+  "claimantId" : "4235828"
+}
+2026-10-04 14:28:17 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:17 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:17 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "47140060",
+    "message": null,
+    "errorMessage": "Claim does not Exist for CMSClaimId 47140060"
+}
+2026-10-04 14:28:17 INFO  utils.Log - TC31 Expected HTTP Status : 400
+2026-10-04 14:28:17 INFO  utils.Log - TC31 Actual HTTP Status : 400
+2026-10-04 14:28:17 INFO  utils.Log - TC31 PASSED
+2026-10-04 14:28:17 INFO  utils.Log - Executing Test Case : TC32
+2026-10-04 14:28:17 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:17 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "docketId" : "88433497",
+  "claimantId" : ""
+}
+2026-10-04 14:28:18 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:18 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:18 INFO  utils.Log - {
+    "noteId": "113160498",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:18 INFO  utils.Log - TC32 Expected HTTP Status : 200
+2026-10-04 14:28:18 INFO  utils.Log - TC32 Actual HTTP Status : 200
+2026-10-04 14:28:18 INFO  utils.Log - TC32 PASSED
+2026-10-04 14:28:18 INFO  utils.Log - Executing Test Case : TC33
+2026-10-04 14:28:18 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:18 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "docketId" : "88433497",
+  "claimantId" : ""
+}
+2026-10-04 14:28:19 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:28:19 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:19 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:28:19 INFO  utils.Log - TC33 Expected HTTP Status : 400
+2026-10-04 14:28:19 INFO  utils.Log - TC33 Actual HTTP Status : 400
+2026-10-04 14:28:19 INFO  utils.Log - TC33 PASSED
+2026-10-04 14:28:19 INFO  utils.Log - Executing Test Case : TC34
+2026-10-04 14:28:19 INFO  utils.Log - Request Body : 
+2026-10-04 14:28:19 INFO  utils.Log - {
+  "cmsclaimId" : "4714007",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "docketId" : "88433497",
+  "claimantId" : ""
+}
+2026-10-04 14:28:20 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:28:20 INFO  utils.Log - Response Body : 
+2026-10-04 14:28:20 INFO  utils.Log - {
+    "noteId": "113167489",
+    "statusCode": 200,
+    "cmsClaimID": "4714007",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:28:21 INFO  utils.Log - TC34 Expected HTTP Status : 200
+2026-10-04 14:28:21 INFO  utils.Log - TC34 Actual HTTP Status : 200
+2026-10-04 14:28:21 INFO  utils.Log - TC34 PASSED
+2026-10-04 14:40:09 INFO  utils.Log - Executing Test Case : TC01
+2026-10-04 14:40:10 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:10 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "note" : "Sample Note added to claimant 4235807 by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 14:40:19 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:19 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:19 INFO  utils.Log - {
+    "noteId": "113167490",
+    "statusCode": 200,
+    "cmsClaimID": "4713992",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:19 INFO  utils.Log - TC01 Expected HTTP Status : 200
+2026-10-04 14:40:19 INFO  utils.Log - TC01 Actual HTTP Status : 200
+2026-10-04 14:40:21 INFO  utils.Log - TC01 PASSED
+2026-10-04 14:40:21 INFO  utils.Log - Executing Test Case : TC02
+2026-10-04 14:40:21 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:21 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "note" : "MaheshGunjal_AddedUpdatedNote",
+  "sendNotification" : true
+}
+2026-10-04 14:40:23 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:23 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:23 INFO  utils.Log - {
+    "noteId": "113167491",
+    "statusCode": 200,
+    "cmsClaimID": "4713992",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:23 INFO  utils.Log - TC02 Expected HTTP Status : 200
+2026-10-04 14:40:23 INFO  utils.Log - TC02 Actual HTTP Status : 200
+2026-10-04 14:40:23 INFO  utils.Log - TC02 PASSED
+2026-10-04 14:40:23 INFO  utils.Log - Executing Test Case : TC03
+2026-10-04 14:40:23 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:23 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 14:40:25 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:25 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:25 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:25 INFO  utils.Log - TC03 Expected HTTP Status : 200
+2026-10-04 14:40:25 INFO  utils.Log - TC03 Actual HTTP Status : 200
+2026-10-04 14:40:25 INFO  utils.Log - TC03 PASSED
+2026-10-04 14:40:25 INFO  utils.Log - Executing Test Case : TC04
+2026-10-04 14:40:25 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:25 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 14:40:27 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:27 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:27 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:27 INFO  utils.Log - TC04 Expected HTTP Status : 200
+2026-10-04 14:40:27 INFO  utils.Log - TC04 Actual HTTP Status : 200
+2026-10-04 14:40:27 INFO  utils.Log - TC04 PASSED
+2026-10-04 14:40:27 INFO  utils.Log - Executing Test Case : TC05
+2026-10-04 14:40:27 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:27 INFO  utils.Log - {
+  "cmsclaimId" : "8888888",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 14:40:28 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:28 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:28 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "8888888",
+    "message": null,
+    "errorMessage": "Claim does not Exist for CMSClaimId 8888888"
+}
+2026-10-04 14:40:28 INFO  utils.Log - TC05 Expected HTTP Status : 400
+2026-10-04 14:40:28 INFO  utils.Log - TC05 Actual HTTP Status : 400
+2026-10-04 14:40:28 INFO  utils.Log - TC05 PASSED
+2026-10-04 14:40:28 INFO  utils.Log - Executing Test Case : TC06
+2026-10-04 14:40:28 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:28 INFO  utils.Log - {
+  "cmsclaimId" : "AbC1234@",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 14:40:29 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:29 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:29 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "AbC1234@",
+    "message": null,
+    "errorMessage": "Note could not be added, Error: Conversion failed when converting the varchar value 'AbC1234@' to data type int."
+}
+2026-10-04 14:40:29 INFO  utils.Log - Executing Test Case : TC07
+2026-10-04 14:40:29 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:29 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "4235809",
+  "docketId" : "",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 14:40:30 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:30 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:30 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:40:30 INFO  utils.Log - TC07 Expected HTTP Status : 400
+2026-10-04 14:40:30 INFO  utils.Log - TC07 Actual HTTP Status : 400
+2026-10-04 14:40:30 INFO  utils.Log - TC07 PASSED
+2026-10-04 14:40:30 INFO  utils.Log - Executing Test Case : TC08
+2026-10-04 14:40:30 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:30 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433475",
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true
+}
+2026-10-04 14:40:31 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:31 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:31 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:40:31 INFO  utils.Log - TC08 Expected HTTP Status : 400
+2026-10-04 14:40:31 INFO  utils.Log - TC08 Actual HTTP Status : 400
+2026-10-04 14:40:31 INFO  utils.Log - TC08 PASSED
+2026-10-04 14:40:31 INFO  utils.Log - Executing Test Case : TC09
+2026-10-04 14:40:31 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:31 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "true"
+}
+2026-10-04 14:40:33 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:33 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:33 INFO  utils.Log - {
+    "noteId": "113167494",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:33 INFO  utils.Log - TC09 Expected HTTP Status : 200
+2026-10-04 14:40:33 INFO  utils.Log - TC09 Actual HTTP Status : 200
+2026-10-04 14:40:33 INFO  utils.Log - TC09 PASSED
+2026-10-04 14:40:33 INFO  utils.Log - Executing Test Case : TC10
+2026-10-04 14:40:33 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:33 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "false"
+}
+2026-10-04 14:40:34 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:34 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:34 INFO  utils.Log - {
+    "noteId": "113167495",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:34 INFO  utils.Log - TC10 Expected HTTP Status : 200
+2026-10-04 14:40:34 INFO  utils.Log - TC10 Actual HTTP Status : 200
+2026-10-04 14:40:34 INFO  utils.Log - TC10 PASSED
+2026-10-04 14:40:34 INFO  utils.Log - Executing Test Case : TC11
+2026-10-04 14:40:34 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:34 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "Numeric One",
+  "sendNotification" : 1
+}
+2026-10-04 14:40:35 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:35 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:35 INFO  utils.Log - {
+    "noteId": "113167496",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:35 INFO  utils.Log - TC11 Expected HTTP Status : 200
+2026-10-04 14:40:35 INFO  utils.Log - TC11 Actual HTTP Status : 200
+2026-10-04 14:40:35 INFO  utils.Log - TC11 PASSED
+2026-10-04 14:40:35 INFO  utils.Log - Executing Test Case : TC12
+2026-10-04 14:40:35 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:35 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "String Value as 1",
+  "sendNotification" : "1"
+}
+2026-10-04 14:40:36 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:36 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:36 INFO  utils.Log - {
+    "errors": {
+        "sendNotification": [
+            "Could not convert string to boolean: 1. Path 'sendNotification', line 1, position 103."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-06e6bfd0ef175188093a2548227352ad-7830afffe89b47e8-00"
+}
+2026-10-04 14:40:36 INFO  utils.Log - Executing Test Case : TC13
+2026-10-04 14:40:36 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:36 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "String Value as 0",
+  "sendNotification" : "0"
+}
+2026-10-04 14:40:37 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:37 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:37 INFO  utils.Log - {
+    "errors": {
+        "sendNotification": [
+            "Could not convert string to boolean: 0. Path 'sendNotification', line 1, position 103."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-422e6b65cfa1557be09490cc0dd81238-3925f07e39e87817-00"
+}
+2026-10-04 14:40:37 INFO  utils.Log - Executing Test Case : TC14
+2026-10-04 14:40:37 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:37 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "note" : "Numeric Value as 0",
+  "sendNotification" : 0
+}
+2026-10-04 14:40:38 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:38 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:38 INFO  utils.Log - {
+    "noteId": "113167497",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:38 INFO  utils.Log - TC14 Expected HTTP Status : 200
+2026-10-04 14:40:38 INFO  utils.Log - TC14 Actual HTTP Status : 200
+2026-10-04 14:40:38 INFO  utils.Log - TC14 PASSED
+2026-10-04 14:40:38 INFO  utils.Log - Executing Test Case : TC15
+2026-10-04 14:40:38 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:38 INFO  utils.Log - {
+  "cmsclaimId" : "4714002",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "note" : "Long Description",
+  "sendNotification" : true
+}
+2026-10-04 14:40:39 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:39 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:39 INFO  utils.Log - {
+    "noteId": "113167477",
+    "statusCode": 200,
+    "cmsClaimID": "4714002",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:39 INFO  utils.Log - TC15 Expected HTTP Status : 200
+2026-10-04 14:40:39 INFO  utils.Log - TC15 Actual HTTP Status : 200
+2026-10-04 14:40:39 INFO  utils.Log - TC15 PASSED
+2026-10-04 14:40:39 INFO  utils.Log - Executing Test Case : TC16
+2026-10-04 14:40:39 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:39 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "note" : "Claimant Mapping Validation",
+  "sendNotification" : true
+}
+2026-10-04 14:40:41 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:41 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:41 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:41 INFO  utils.Log - TC16 Expected HTTP Status : 200
+2026-10-04 14:40:41 INFO  utils.Log - TC16 Actual HTTP Status : 200
+2026-10-04 14:40:41 INFO  utils.Log - TC16 PASSED
+2026-10-04 14:40:41 INFO  utils.Log - Executing Test Case : TC17
+2026-10-04 14:40:41 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:41 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "note" : "Docket Mapping Validation",
+  "sendNotification" : true
+}
+2026-10-04 14:40:43 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:43 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:43 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:43 INFO  utils.Log - TC17 Expected HTTP Status : 200
+2026-10-04 14:40:43 INFO  utils.Log - TC17 Actual HTTP Status : 200
+2026-10-04 14:40:43 INFO  utils.Log - TC17 PASSED
+2026-10-04 14:40:43 INFO  utils.Log - Executing Test Case : TC18
+2026-10-04 14:40:43 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:43 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "4235809,4235810",
+  "docketId" : "",
+  "note" : "Multiple Claimants",
+  "sendNotification" : true
+}
+2026-10-04 14:40:45 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:45 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:45 INFO  utils.Log - {
+    "noteId": "113167501",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:45 INFO  utils.Log - TC18 Expected HTTP Status : 200
+2026-10-04 14:40:45 INFO  utils.Log - TC18 Actual HTTP Status : 200
+2026-10-04 14:40:45 INFO  utils.Log - TC18 PASSED
+2026-10-04 14:40:45 INFO  utils.Log - Executing Test Case : TC19
+2026-10-04 14:40:45 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:45 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433475,88433476",
+  "note" : "Multiple Dockets",
+  "sendNotification" : true
+}
+2026-10-04 14:40:46 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:46 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:46 INFO  utils.Log - {
+    "noteId": "113167502",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:46 INFO  utils.Log - Executing Test Case : TC20
+2026-10-04 14:40:46 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:46 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 14:40:47 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:47 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:47 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:40:47 INFO  utils.Log - TC20 Expected HTTP Status : 400
+2026-10-04 14:40:47 INFO  utils.Log - TC20 Actual HTTP Status : 400
+2026-10-04 14:40:47 INFO  utils.Log - TC20 PASSED
+2026-10-04 14:40:47 INFO  utils.Log - Executing Test Case : TC21
+2026-10-04 14:40:47 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:47 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 14:40:49 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:49 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:49 INFO  utils.Log - {
+    "noteId": "113167503",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:49 INFO  utils.Log - TC21 Expected HTTP Status : 200
+2026-10-04 14:40:49 INFO  utils.Log - TC21 Actual HTTP Status : 200
+2026-10-04 14:40:49 INFO  utils.Log - TC21 PASSED
+2026-10-04 14:40:49 INFO  utils.Log - Executing Test Case : TC22
+2026-10-04 14:40:49 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:49 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 14:40:50 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:50 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:50 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:40:50 INFO  utils.Log - TC22 Expected HTTP Status : 400
+2026-10-04 14:40:50 INFO  utils.Log - TC22 Actual HTTP Status : 400
+2026-10-04 14:40:50 INFO  utils.Log - TC22 PASSED
+2026-10-04 14:40:50 INFO  utils.Log - Executing Test Case : TC23
+2026-10-04 14:40:50 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:50 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 14:40:51 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:51 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:51 INFO  utils.Log - {
+    "noteId": "113160293",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:51 INFO  utils.Log - TC23 Expected HTTP Status : 200
+2026-10-04 14:40:51 INFO  utils.Log - TC23 Actual HTTP Status : 200
+2026-10-04 14:40:51 INFO  utils.Log - TC23 PASSED
+2026-10-04 14:40:51 INFO  utils.Log - Executing Test Case : TC24
+2026-10-04 14:40:51 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:51 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true
+}
+2026-10-04 14:40:52 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:52 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:52 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714005",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:40:52 INFO  utils.Log - TC24 Expected HTTP Status : 400
+2026-10-04 14:40:52 INFO  utils.Log - TC24 Actual HTTP Status : 400
+2026-10-04 14:40:52 INFO  utils.Log - TC24 PASSED
+2026-10-04 14:40:52 INFO  utils.Log - Executing Test Case : TC25
+2026-10-04 14:40:52 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:52 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "note" : "",
+  "sendNotification" : true
+}
+2026-10-04 14:40:53 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:53 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:53 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Please provide note, it should not be blank."
+}
+2026-10-04 14:40:53 INFO  utils.Log - TC25 Expected HTTP Status : 400
+2026-10-04 14:40:53 INFO  utils.Log - TC25 Actual HTTP Status : 400
+2026-10-04 14:40:53 INFO  utils.Log - TC25 PASSED
+2026-10-04 14:40:53 INFO  utils.Log - Executing Test Case : TC26
+2026-10-04 14:40:53 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:53 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "note" : "",
+  "sendNotification" : true
+}
+2026-10-04 14:40:54 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:54 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:54 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Please provide note, it should not be blank."
+}
+2026-10-04 14:40:54 INFO  utils.Log - TC26 Expected HTTP Status : 400
+2026-10-04 14:40:54 INFO  utils.Log - TC26 Actual HTTP Status : 400
+2026-10-04 14:40:54 INFO  utils.Log - TC26 PASSED
+2026-10-04 14:40:54 INFO  utils.Log - Executing Test Case : TC27
+2026-10-04 14:40:54 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:54 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4@235#828",
+  "docketId" : "",
+  "note" : "Added Note on 25_August_2026",
+  "sendNotification" : true
+}
+2026-10-04 14:40:55 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:55 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:55 INFO  utils.Log - {
+    "noteId": "113167506",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:55 INFO  utils.Log - TC27 Expected HTTP Status : 200
+2026-10-04 14:40:55 INFO  utils.Log - TC27 Actual HTTP Status : 200
+2026-10-04 14:40:55 INFO  utils.Log - TC27 PASSED
+2026-10-04 14:40:55 INFO  utils.Log - Executing Test Case : TC28
+2026-10-04 14:40:55 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:55 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "884@334#97",
+  "note" : "Added Note",
+  "sendNotification" : true
+}
+2026-10-04 14:40:56 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:40:56 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:56 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714005",
+    "message": null,
+    "errorMessage": "Note could not be added, Error: Conversion failed when converting the varchar value '884@334#97' to data type int."
+}
+2026-10-04 14:40:56 INFO  utils.Log - TC28 Expected HTTP Status : 400
+2026-10-04 14:40:56 INFO  utils.Log - TC28 Actual HTTP Status : 400
+2026-10-04 14:40:56 INFO  utils.Log - TC28 PASSED
+2026-10-04 14:40:56 INFO  utils.Log - Executing Test Case : TC29
+2026-10-04 14:40:56 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:56 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 14:40:57 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:57 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:57 INFO  utils.Log - {
+    "noteId": "113160498",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:57 INFO  utils.Log - TC29 Expected HTTP Status : 200
+2026-10-04 14:40:57 INFO  utils.Log - TC29 Actual HTTP Status : 200
+2026-10-04 14:40:57 INFO  utils.Log - TC29 PASSED
+2026-10-04 14:40:57 INFO  utils.Log - Executing Test Case : TC30
+2026-10-04 14:40:57 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:57 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 14:40:59 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:40:59 INFO  utils.Log - Response Body : 
+2026-10-04 14:40:59 INFO  utils.Log - {
+    "noteId": "113167508",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:40:59 INFO  utils.Log - TC30 Expected HTTP Status : 200
+2026-10-04 14:40:59 INFO  utils.Log - TC30 Actual HTTP Status : 200
+2026-10-04 14:40:59 INFO  utils.Log - TC30 PASSED
+2026-10-04 14:40:59 INFO  utils.Log - Executing Test Case : TC31
+2026-10-04 14:40:59 INFO  utils.Log - Request Body : 
+2026-10-04 14:40:59 INFO  utils.Log - {
+  "cmsclaimId" : "47140060",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 14:41:00 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:41:00 INFO  utils.Log - Response Body : 
+2026-10-04 14:41:00 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "47140060",
+    "message": null,
+    "errorMessage": "Claim does not Exist for CMSClaimId 47140060"
+}
+2026-10-04 14:41:00 INFO  utils.Log - TC31 Expected HTTP Status : 400
+2026-10-04 14:41:00 INFO  utils.Log - TC31 Actual HTTP Status : 400
+2026-10-04 14:41:00 INFO  utils.Log - TC31 PASSED
+2026-10-04 14:41:00 INFO  utils.Log - Executing Test Case : TC32
+2026-10-04 14:41:00 INFO  utils.Log - Request Body : 
+2026-10-04 14:41:00 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 14:41:01 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:41:01 INFO  utils.Log - Response Body : 
+2026-10-04 14:41:01 INFO  utils.Log - {
+    "noteId": "113160498",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:41:01 INFO  utils.Log - TC32 Expected HTTP Status : 200
+2026-10-04 14:41:01 INFO  utils.Log - TC32 Actual HTTP Status : 200
+2026-10-04 14:41:01 INFO  utils.Log - TC32 PASSED
+2026-10-04 14:41:01 INFO  utils.Log - Executing Test Case : TC33
+2026-10-04 14:41:01 INFO  utils.Log - Request Body : 
+2026-10-04 14:41:01 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 14:41:03 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:41:03 INFO  utils.Log - Response Body : 
+2026-10-04 14:41:03 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:41:03 INFO  utils.Log - TC33 Expected HTTP Status : 400
+2026-10-04 14:41:03 INFO  utils.Log - TC33 Actual HTTP Status : 400
+2026-10-04 14:41:03 INFO  utils.Log - TC33 PASSED
+2026-10-04 14:41:03 INFO  utils.Log - Executing Test Case : TC34
+2026-10-04 14:41:03 INFO  utils.Log - Request Body : 
+2026-10-04 14:41:03 INFO  utils.Log - {
+  "cmsclaimId" : "4714007",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true
+}
+2026-10-04 14:41:04 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:41:04 INFO  utils.Log - Response Body : 
+2026-10-04 14:41:04 INFO  utils.Log - {
+    "noteId": "113167489",
+    "statusCode": 200,
+    "cmsClaimID": "4714007",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:41:04 INFO  utils.Log - TC34 Expected HTTP Status : 200
+2026-10-04 14:41:04 INFO  utils.Log - TC34 Actual HTTP Status : 200
+2026-10-04 14:41:04 INFO  utils.Log - TC34 PASSED
+2026-10-04 14:58:25 INFO  utils.Log - Executing Test Case : TC01
+2026-10-04 14:58:25 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:25 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Sample Note added to claimant 4235807 by Mahesh"
+}
+2026-10-04 14:58:34 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:34 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:34 INFO  utils.Log - {
+    "noteId": "113167512",
+    "statusCode": 200,
+    "cmsClaimID": "4713992",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:35 INFO  utils.Log - TC01 Expected HTTP Status : 200
+2026-10-04 14:58:35 INFO  utils.Log - TC01 Actual HTTP Status : 200
+2026-10-04 14:58:36 INFO  utils.Log - TC01 PASSED
+2026-10-04 14:58:37 INFO  utils.Log - Executing Test Case : TC02
+2026-10-04 14:58:37 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:37 INFO  utils.Log - {
+  "cmsclaimId" : "4713992",
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "MaheshGunjal_AddedUpdatedNote"
+}
+2026-10-04 14:58:39 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:39 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:39 INFO  utils.Log - {
+    "noteId": "113167513",
+    "statusCode": 200,
+    "cmsClaimID": "4713992",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:39 INFO  utils.Log - TC02 Expected HTTP Status : 200
+2026-10-04 14:58:39 INFO  utils.Log - TC02 Actual HTTP Status : 200
+2026-10-04 14:58:39 INFO  utils.Log - TC02 PASSED
+2026-10-04 14:58:39 INFO  utils.Log - Executing Test Case : TC03
+2026-10-04 14:58:39 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:39 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:58:41 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:41 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:41 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:41 INFO  utils.Log - TC03 Expected HTTP Status : 200
+2026-10-04 14:58:41 INFO  utils.Log - TC03 Actual HTTP Status : 200
+2026-10-04 14:58:41 INFO  utils.Log - TC03 PASSED
+2026-10-04 14:58:41 INFO  utils.Log - Executing Test Case : TC04
+2026-10-04 14:58:41 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:41 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:58:42 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:42 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:42 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:42 INFO  utils.Log - TC04 Expected HTTP Status : 200
+2026-10-04 14:58:42 INFO  utils.Log - TC04 Actual HTTP Status : 200
+2026-10-04 14:58:42 INFO  utils.Log - TC04 PASSED
+2026-10-04 14:58:42 INFO  utils.Log - Executing Test Case : TC05
+2026-10-04 14:58:42 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:42 INFO  utils.Log - {
+  "cmsclaimId" : "8888888",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:58:43 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:58:43 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:43 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "8888888",
+    "message": null,
+    "errorMessage": "Claim does not Exist for CMSClaimId 8888888"
+}
+2026-10-04 14:58:43 INFO  utils.Log - TC05 Expected HTTP Status : 400
+2026-10-04 14:58:43 INFO  utils.Log - TC05 Actual HTTP Status : 400
+2026-10-04 14:58:43 INFO  utils.Log - TC05 PASSED
+2026-10-04 14:58:43 INFO  utils.Log - Executing Test Case : TC06
+2026-10-04 14:58:43 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:43 INFO  utils.Log - {
+  "cmsclaimId" : "AbC1234@",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:58:44 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:58:44 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:44 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "AbC1234@",
+    "message": null,
+    "errorMessage": "Note could not be added, Error: Conversion failed when converting the varchar value 'AbC1234@' to data type int."
+}
+2026-10-04 14:58:44 INFO  utils.Log - Executing Test Case : TC07
+2026-10-04 14:58:44 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:44 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "4235809",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:58:45 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:58:45 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:45 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:58:45 INFO  utils.Log - TC07 Expected HTTP Status : 400
+2026-10-04 14:58:45 INFO  utils.Log - TC07 Actual HTTP Status : 400
+2026-10-04 14:58:45 INFO  utils.Log - TC07 PASSED
+2026-10-04 14:58:45 INFO  utils.Log - Executing Test Case : TC08
+2026-10-04 14:58:45 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:45 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh"
+}
+2026-10-04 14:58:46 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:58:46 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:46 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:58:46 INFO  utils.Log - TC08 Expected HTTP Status : 400
+2026-10-04 14:58:46 INFO  utils.Log - TC08 Actual HTTP Status : 400
+2026-10-04 14:58:46 INFO  utils.Log - TC08 PASSED
+2026-10-04 14:58:46 INFO  utils.Log - Executing Test Case : TC09
+2026-10-04 14:58:46 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:46 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "true",
+  "note" : "String Value as true in SendNotification node"
+}
+2026-10-04 14:58:47 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:47 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:47 INFO  utils.Log - {
+    "noteId": "113167516",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:47 INFO  utils.Log - TC09 Expected HTTP Status : 200
+2026-10-04 14:58:47 INFO  utils.Log - TC09 Actual HTTP Status : 200
+2026-10-04 14:58:47 INFO  utils.Log - TC09 PASSED
+2026-10-04 14:58:47 INFO  utils.Log - Executing Test Case : TC10
+2026-10-04 14:58:47 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:47 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "false",
+  "note" : "String Value as true in SendNotification node"
+}
+2026-10-04 14:58:48 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:48 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:48 INFO  utils.Log - {
+    "noteId": "113167517",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:48 INFO  utils.Log - TC10 Expected HTTP Status : 200
+2026-10-04 14:58:48 INFO  utils.Log - TC10 Actual HTTP Status : 200
+2026-10-04 14:58:48 INFO  utils.Log - TC10 PASSED
+2026-10-04 14:58:48 INFO  utils.Log - Executing Test Case : TC11
+2026-10-04 14:58:48 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:48 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : 1,
+  "note" : "Numeric One"
+}
+2026-10-04 14:58:49 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:49 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:49 INFO  utils.Log - {
+    "noteId": "113167518",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:49 INFO  utils.Log - TC11 Expected HTTP Status : 200
+2026-10-04 14:58:49 INFO  utils.Log - TC11 Actual HTTP Status : 200
+2026-10-04 14:58:50 INFO  utils.Log - TC11 PASSED
+2026-10-04 14:58:50 INFO  utils.Log - Executing Test Case : TC12
+2026-10-04 14:58:50 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:50 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "1",
+  "note" : "String Value as 1"
+}
+2026-10-04 14:58:50 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:58:50 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:50 INFO  utils.Log - {
+    "errors": {
+        "sendNotification": [
+            "Could not convert string to boolean: 1. Path 'sendNotification', line 1, position 76."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-693caa97ec3aee21eaa875a30f3eef7f-de807aad032c615e-00"
+}
+2026-10-04 14:58:50 INFO  utils.Log - Executing Test Case : TC13
+2026-10-04 14:58:50 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:50 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : "0",
+  "note" : "String Value as 0"
+}
+2026-10-04 14:58:51 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:58:51 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:51 INFO  utils.Log - {
+    "errors": {
+        "sendNotification": [
+            "Could not convert string to boolean: 0. Path 'sendNotification', line 1, position 76."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-237a9ca9bb4e8d5f2a5e054070019835-f66bd4b578a613d7-00"
+}
+2026-10-04 14:58:51 INFO  utils.Log - Executing Test Case : TC14
+2026-10-04 14:58:51 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:51 INFO  utils.Log - {
+  "cmsclaimId" : "4713994",
+  "claimantId" : "",
+  "docketId" : "",
+  "sendNotification" : 0,
+  "note" : "Numeric Value as 0"
+}
+2026-10-04 14:58:52 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:52 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:52 INFO  utils.Log - {
+    "noteId": "113167519",
+    "statusCode": 200,
+    "cmsClaimID": "4713994",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:52 INFO  utils.Log - TC14 Expected HTTP Status : 200
+2026-10-04 14:58:52 INFO  utils.Log - TC14 Actual HTTP Status : 200
+2026-10-04 14:58:52 INFO  utils.Log - TC14 PASSED
+2026-10-04 14:58:52 INFO  utils.Log - Executing Test Case : TC15
+2026-10-04 14:58:52 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:52 INFO  utils.Log - {
+  "cmsclaimId" : "4714002",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Long Description"
+}
+2026-10-04 14:58:54 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:54 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:54 INFO  utils.Log - {
+    "noteId": "113167477",
+    "statusCode": 200,
+    "cmsClaimID": "4714002",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:54 INFO  utils.Log - TC15 Expected HTTP Status : 200
+2026-10-04 14:58:54 INFO  utils.Log - TC15 Actual HTTP Status : 200
+2026-10-04 14:58:54 INFO  utils.Log - TC15 PASSED
+2026-10-04 14:58:54 INFO  utils.Log - Executing Test Case : TC16
+2026-10-04 14:58:54 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:54 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Claimant Mapping Validation"
+}
+2026-10-04 14:58:55 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:55 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:55 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:55 INFO  utils.Log - TC16 Expected HTTP Status : 200
+2026-10-04 14:58:55 INFO  utils.Log - TC16 Actual HTTP Status : 200
+2026-10-04 14:58:56 INFO  utils.Log - TC16 PASSED
+2026-10-04 14:58:56 INFO  utils.Log - Executing Test Case : TC17
+2026-10-04 14:58:56 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:56 INFO  utils.Log - {
+  "cmsclaimId" : "4713993",
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "sendNotification" : true,
+  "note" : "Docket Mapping Validation"
+}
+2026-10-04 14:58:57 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:57 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:57 INFO  utils.Log - {
+    "noteId": "113159505",
+    "statusCode": 200,
+    "cmsClaimID": "4713993",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:57 INFO  utils.Log - TC17 Expected HTTP Status : 200
+2026-10-04 14:58:57 INFO  utils.Log - TC17 Actual HTTP Status : 200
+2026-10-04 14:58:57 INFO  utils.Log - TC17 PASSED
+2026-10-04 14:58:57 INFO  utils.Log - Executing Test Case : TC18
+2026-10-04 14:58:57 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:57 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "4235809,4235810",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Multiple Claimants"
+}
+2026-10-04 14:58:59 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:58:59 INFO  utils.Log - Response Body : 
+2026-10-04 14:58:59 INFO  utils.Log - {
+    "noteId": "113167523",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:58:59 INFO  utils.Log - TC18 Expected HTTP Status : 200
+2026-10-04 14:58:59 INFO  utils.Log - TC18 Actual HTTP Status : 200
+2026-10-04 14:58:59 INFO  utils.Log - TC18 PASSED
+2026-10-04 14:58:59 INFO  utils.Log - Executing Test Case : TC19
+2026-10-04 14:58:59 INFO  utils.Log - Request Body : 
+2026-10-04 14:58:59 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433475,88433476",
+  "sendNotification" : true,
+  "note" : "Multiple Dockets"
+}
+2026-10-04 14:59:00 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:00 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:00 INFO  utils.Log - {
+    "noteId": "113167524",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:00 INFO  utils.Log - Executing Test Case : TC20
+2026-10-04 14:59:00 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:00 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:59:01 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:01 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:01 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:59:01 INFO  utils.Log - TC20 Expected HTTP Status : 400
+2026-10-04 14:59:01 INFO  utils.Log - TC20 Actual HTTP Status : 400
+2026-10-04 14:59:01 INFO  utils.Log - TC20 PASSED
+2026-10-04 14:59:01 INFO  utils.Log - Executing Test Case : TC21
+2026-10-04 14:59:01 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:01 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:59:04 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:04 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:04 INFO  utils.Log - {
+    "noteId": "113167525",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:04 INFO  utils.Log - TC21 Expected HTTP Status : 200
+2026-10-04 14:59:04 INFO  utils.Log - TC21 Actual HTTP Status : 200
+2026-10-04 14:59:04 INFO  utils.Log - TC21 PASSED
+2026-10-04 14:59:04 INFO  utils.Log - Executing Test Case : TC22
+2026-10-04 14:59:04 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:04 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:59:05 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:05 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:05 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:59:05 INFO  utils.Log - TC22 Expected HTTP Status : 400
+2026-10-04 14:59:05 INFO  utils.Log - TC22 Actual HTTP Status : 400
+2026-10-04 14:59:05 INFO  utils.Log - TC22 PASSED
+2026-10-04 14:59:05 INFO  utils.Log - Executing Test Case : TC23
+2026-10-04 14:59:05 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:05 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:59:06 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:06 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:06 INFO  utils.Log - {
+    "noteId": "113160293",
+    "statusCode": 200,
+    "cmsClaimID": "4714005",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:06 INFO  utils.Log - TC23 Expected HTTP Status : 200
+2026-10-04 14:59:06 INFO  utils.Log - TC23 Actual HTTP Status : 200
+2026-10-04 14:59:06 INFO  utils.Log - TC23 PASSED
+2026-10-04 14:59:06 INFO  utils.Log - Executing Test Case : TC24
+2026-10-04 14:59:06 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:06 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
+2026-10-04 14:59:07 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:07 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:07 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714005",
+    "message": null,
+    "errorMessage": "Note Length should not exceed 200 Characters"
+}
+2026-10-04 14:59:07 INFO  utils.Log - TC24 Expected HTTP Status : 400
+2026-10-04 14:59:07 INFO  utils.Log - TC24 Actual HTTP Status : 400
+2026-10-04 14:59:07 INFO  utils.Log - TC24 PASSED
+2026-10-04 14:59:07 INFO  utils.Log - Executing Test Case : TC25
+2026-10-04 14:59:07 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:07 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : ""
+}
+2026-10-04 14:59:08 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:08 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:08 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Please provide note, it should not be blank."
+}
+2026-10-04 14:59:08 INFO  utils.Log - TC25 Expected HTTP Status : 400
+2026-10-04 14:59:08 INFO  utils.Log - TC25 Actual HTTP Status : 400
+2026-10-04 14:59:08 INFO  utils.Log - TC25 PASSED
+2026-10-04 14:59:08 INFO  utils.Log - Executing Test Case : TC26
+2026-10-04 14:59:08 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:08 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : ""
+}
+2026-10-04 14:59:09 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:09 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:09 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714006",
+    "message": null,
+    "errorMessage": "Please provide note, it should not be blank."
+}
+2026-10-04 14:59:09 INFO  utils.Log - TC26 Expected HTTP Status : 400
+2026-10-04 14:59:09 INFO  utils.Log - TC26 Actual HTTP Status : 400
+2026-10-04 14:59:09 INFO  utils.Log - TC26 PASSED
+2026-10-04 14:59:09 INFO  utils.Log - Executing Test Case : TC27
+2026-10-04 14:59:09 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:09 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4@235#828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "Added Note on 25_August_2026"
+}
+2026-10-04 14:59:10 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:10 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:10 INFO  utils.Log - {
+    "noteId": "113167527",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:10 INFO  utils.Log - TC27 Expected HTTP Status : 200
+2026-10-04 14:59:10 INFO  utils.Log - TC27 Actual HTTP Status : 200
+2026-10-04 14:59:10 INFO  utils.Log - TC27 PASSED
+2026-10-04 14:59:10 INFO  utils.Log - Executing Test Case : TC28
+2026-10-04 14:59:10 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:10 INFO  utils.Log - {
+  "cmsclaimId" : "4714005",
+  "claimantId" : "",
+  "docketId" : "884@334#97",
+  "sendNotification" : true,
+  "note" : "Added Note"
+}
+2026-10-04 14:59:11 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:11 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:11 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "4714005",
+    "message": null,
+    "errorMessage": "Note could not be added, Error: Conversion failed when converting the varchar value '884@334#97' to data type int."
+}
+2026-10-04 14:59:11 INFO  utils.Log - TC28 Expected HTTP Status : 400
+2026-10-04 14:59:11 INFO  utils.Log - TC28 Actual HTTP Status : 400
+2026-10-04 14:59:11 INFO  utils.Log - TC28 PASSED
+2026-10-04 14:59:11 INFO  utils.Log - Executing Test Case : TC29
+2026-10-04 14:59:11 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:11 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:59:13 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:13 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:13 INFO  utils.Log - {
+    "noteId": "113160498",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:13 INFO  utils.Log - TC29 Expected HTTP Status : 200
+2026-10-04 14:59:13 INFO  utils.Log - TC29 Actual HTTP Status : 200
+2026-10-04 14:59:13 INFO  utils.Log - TC29 PASSED
+2026-10-04 14:59:13 INFO  utils.Log - Executing Test Case : TC30
+2026-10-04 14:59:13 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:13 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:59:15 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:15 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:15 INFO  utils.Log - {
+    "noteId": "113167529",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:15 INFO  utils.Log - TC30 Expected HTTP Status : 200
+2026-10-04 14:59:15 INFO  utils.Log - TC30 Actual HTTP Status : 200
+2026-10-04 14:59:15 INFO  utils.Log - TC30 PASSED
+2026-10-04 14:59:15 INFO  utils.Log - Executing Test Case : TC31
+2026-10-04 14:59:15 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:15 INFO  utils.Log - {
+  "cmsclaimId" : "47140060",
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:59:16 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:16 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:16 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "47140060",
+    "message": null,
+    "errorMessage": "Claim does not Exist for CMSClaimId 47140060"
+}
+2026-10-04 14:59:16 INFO  utils.Log - TC31 Expected HTTP Status : 400
+2026-10-04 14:59:16 INFO  utils.Log - TC31 Actual HTTP Status : 400
+2026-10-04 14:59:16 INFO  utils.Log - TC31 PASSED
+2026-10-04 14:59:16 INFO  utils.Log - Executing Test Case : TC32
+2026-10-04 14:59:16 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:16 INFO  utils.Log - {
+  "cmsclaimId" : "4714006",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:59:17 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:17 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:17 INFO  utils.Log - {
+    "noteId": "113160498",
+    "statusCode": 200,
+    "cmsClaimID": "4714006",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:17 INFO  utils.Log - TC32 Expected HTTP Status : 200
+2026-10-04 14:59:17 INFO  utils.Log - TC32 Actual HTTP Status : 200
+2026-10-04 14:59:17 INFO  utils.Log - TC32 PASSED
+2026-10-04 14:59:17 INFO  utils.Log - Executing Test Case : TC33
+2026-10-04 14:59:17 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:17 INFO  utils.Log - {
+  "cmsclaimId" : "",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:59:18 INFO  utils.Log - Response Status Code : 400
+2026-10-04 14:59:18 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:18 INFO  utils.Log - {
+    "noteId": null,
+    "statusCode": 400,
+    "cmsClaimID": "",
+    "message": null,
+    "errorMessage": "Please provide CMSClaimId, it should not be blank."
+}
+2026-10-04 14:59:18 INFO  utils.Log - TC33 Expected HTTP Status : 400
+2026-10-04 14:59:18 INFO  utils.Log - TC33 Actual HTTP Status : 400
+2026-10-04 14:59:18 INFO  utils.Log - TC33 PASSED
+2026-10-04 14:59:18 INFO  utils.Log - Executing Test Case : TC34
+2026-10-04 14:59:18 INFO  utils.Log - Request Body : 
+2026-10-04 14:59:18 INFO  utils.Log - {
+  "cmsclaimId" : "4714007",
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "sendNotification" : true,
+  "note" : "noteAdded_Updated"
+}
+2026-10-04 14:59:19 INFO  utils.Log - Response Status Code : 200
+2026-10-04 14:59:19 INFO  utils.Log - Response Body : 
+2026-10-04 14:59:19 INFO  utils.Log - {
+    "noteId": "113167489",
+    "statusCode": 200,
+    "cmsClaimID": "4714007",
+    "message": "Note has been added Successfully.",
+    "errorMessage": null
+}
+2026-10-04 14:59:19 INFO  utils.Log - TC34 Expected HTTP Status : 200
+2026-10-04 14:59:19 INFO  utils.Log - TC34 Actual HTTP Status : 200
+2026-10-04 14:59:19 INFO  utils.Log - TC34 PASSED
+2026-10-04 15:27:02 INFO  utils.Log - Executing Test Case : TC01
+2026-10-04 15:27:02 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:02 INFO  utils.Log - {
+  "note" : "Sample Note added to claimant 4235807 by Mahesh",
+  "sendNotification" : true,
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "cmsclaimId" : "4713992"
+}
+2026-10-04 15:27:06 INFO  utils.Log - Executing Test Case : TC02
+2026-10-04 15:27:06 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:06 INFO  utils.Log - {
+  "note" : "MaheshGunjal_AddedUpdatedNote",
+  "sendNotification" : true,
+  "claimantId" : "4235807",
+  "docketId" : "",
+  "cmsclaimId" : "4713992"
+}
+2026-10-04 15:27:07 INFO  utils.Log - Executing Test Case : TC03
+2026-10-04 15:27:07 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:07 INFO  utils.Log - {
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "cmsclaimId" : "4713993"
+}
+2026-10-04 15:27:08 INFO  utils.Log - Executing Test Case : TC04
+2026-10-04 15:27:08 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:08 INFO  utils.Log - {
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "cmsclaimId" : "4713993"
+}
+2026-10-04 15:27:09 INFO  utils.Log - Executing Test Case : TC05
+2026-10-04 15:27:09 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:09 INFO  utils.Log - {
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "8888888"
+}
+2026-10-04 15:27:09 INFO  utils.Log - Executing Test Case : TC06
+2026-10-04 15:27:09 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:09 INFO  utils.Log - {
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "AbC1234@"
+}
+2026-10-04 15:27:10 INFO  utils.Log - Executing Test Case : TC07
+2026-10-04 15:27:10 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:10 INFO  utils.Log - {
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "claimantId" : "4235809",
+  "docketId" : "",
+  "cmsclaimId" : ""
+}
+2026-10-04 15:27:11 INFO  utils.Log - Executing Test Case : TC08
+2026-10-04 15:27:11 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:11 INFO  utils.Log - {
+  "note" : "Note_Added_to_Claimant & Docker_by Mahesh",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433475",
+  "cmsclaimId" : ""
+}
+2026-10-04 15:27:12 INFO  utils.Log - Executing Test Case : TC09
+2026-10-04 15:27:12 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:12 INFO  utils.Log - {
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "true",
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "4713994"
+}
+2026-10-04 15:27:13 INFO  utils.Log - Executing Test Case : TC10
+2026-10-04 15:27:13 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:13 INFO  utils.Log - {
+  "note" : "String Value as true in SendNotification node",
+  "sendNotification" : "false",
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "4713994"
+}
+2026-10-04 15:27:13 INFO  utils.Log - Executing Test Case : TC11
+2026-10-04 15:27:13 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:13 INFO  utils.Log - {
+  "note" : "Numeric One",
+  "sendNotification" : 1,
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "4713994"
+}
+2026-10-04 15:27:14 INFO  utils.Log - Executing Test Case : TC12
+2026-10-04 15:27:14 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:14 INFO  utils.Log - {
+  "note" : "String Value as 1",
+  "sendNotification" : "1",
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "4713994"
+}
+2026-10-04 15:27:15 INFO  utils.Log - Executing Test Case : TC13
+2026-10-04 15:27:15 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:15 INFO  utils.Log - {
+  "note" : "String Value as 0",
+  "sendNotification" : "0",
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "4713994"
+}
+2026-10-04 15:27:16 INFO  utils.Log - Executing Test Case : TC14
+2026-10-04 15:27:16 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:16 INFO  utils.Log - {
+  "note" : "Numeric Value as 0",
+  "sendNotification" : 0,
+  "claimantId" : "",
+  "docketId" : "",
+  "cmsclaimId" : "4713994"
+}
+2026-10-04 15:27:16 INFO  utils.Log - Executing Test Case : TC15
+2026-10-04 15:27:16 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:16 INFO  utils.Log - {
+  "note" : "Long Description",
+  "sendNotification" : true,
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "cmsclaimId" : "4714002"
+}
+2026-10-04 15:27:17 INFO  utils.Log - Executing Test Case : TC16
+2026-10-04 15:27:17 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:17 INFO  utils.Log - {
+  "note" : "Claimant Mapping Validation",
+  "sendNotification" : true,
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "cmsclaimId" : "4713993"
+}
+2026-10-04 15:27:18 INFO  utils.Log - Executing Test Case : TC17
+2026-10-04 15:27:18 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:18 INFO  utils.Log - {
+  "note" : "Docket Mapping Validation",
+  "sendNotification" : true,
+  "claimantId" : "4235809",
+  "docketId" : "88433475",
+  "cmsclaimId" : "4713993"
+}
+2026-10-04 15:27:19 INFO  utils.Log - Executing Test Case : TC18
+2026-10-04 15:27:19 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:19 INFO  utils.Log - {
+  "note" : "Multiple Claimants",
+  "sendNotification" : true,
+  "claimantId" : "4235809,4235810",
+  "docketId" : "",
+  "cmsclaimId" : "4714005"
+}
+2026-10-04 15:27:20 INFO  utils.Log - Executing Test Case : TC19
+2026-10-04 15:27:20 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:20 INFO  utils.Log - {
+  "note" : "Multiple Dockets",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433475,88433476",
+  "cmsclaimId" : "4714005"
+}
+2026-10-04 15:27:20 INFO  utils.Log - Executing Test Case : TC20
+2026-10-04 15:27:20 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:20 INFO  utils.Log - {
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:21 INFO  utils.Log - Executing Test Case : TC21
+2026-10-04 15:27:21 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:21 INFO  utils.Log - {
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:22 INFO  utils.Log - Executing Test Case : TC22
+2026-10-04 15:27:22 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:22 INFO  utils.Log - {
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:23 INFO  utils.Log - Executing Test Case : TC23
+2026-10-04 15:27:23 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:23 INFO  utils.Log - {
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "cmsclaimId" : "4714005"
+}
+2026-10-04 15:27:23 INFO  utils.Log - Executing Test Case : TC24
+2026-10-04 15:27:23 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:23 INFO  utils.Log - {
+  "note" : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "cmsclaimId" : "4714005"
+}
+2026-10-04 15:27:24 INFO  utils.Log - Executing Test Case : TC25
+2026-10-04 15:27:24 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:24 INFO  utils.Log - {
+  "note" : "",
+  "sendNotification" : true,
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:25 INFO  utils.Log - Executing Test Case : TC26
+2026-10-04 15:27:25 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:25 INFO  utils.Log - {
+  "note" : "",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:26 INFO  utils.Log - Executing Test Case : TC27
+2026-10-04 15:27:26 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:26 INFO  utils.Log - {
+  "note" : "Added Note on 25_August_2026",
+  "sendNotification" : true,
+  "claimantId" : "4@235#828",
+  "docketId" : "",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:26 INFO  utils.Log - Executing Test Case : TC28
+2026-10-04 15:27:26 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:26 INFO  utils.Log - {
+  "note" : "Added Note",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "884@334#97",
+  "cmsclaimId" : "4714005"
+}
+2026-10-04 15:27:27 INFO  utils.Log - Executing Test Case : TC29
+2026-10-04 15:27:27 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:27 INFO  utils.Log - {
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:28 INFO  utils.Log - Executing Test Case : TC30
+2026-10-04 15:27:28 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:28 INFO  utils.Log - {
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:29 INFO  utils.Log - Executing Test Case : TC31
+2026-10-04 15:27:29 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:29 INFO  utils.Log - {
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "claimantId" : "4235828",
+  "docketId" : "",
+  "cmsclaimId" : "47140060"
+}
+2026-10-04 15:27:30 INFO  utils.Log - Executing Test Case : TC32
+2026-10-04 15:27:30 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:30 INFO  utils.Log - {
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "cmsclaimId" : "4714006"
+}
+2026-10-04 15:27:30 INFO  utils.Log - Executing Test Case : TC33
+2026-10-04 15:27:30 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:30 INFO  utils.Log - {
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "cmsclaimId" : ""
+}
+2026-10-04 15:27:31 INFO  utils.Log - Executing Test Case : TC34
+2026-10-04 15:27:31 INFO  utils.Log - Request Body : 
+2026-10-04 15:27:31 INFO  utils.Log - {
+  "note" : "noteAdded_Updated",
+  "sendNotification" : true,
+  "claimantId" : "",
+  "docketId" : "88433497",
+  "cmsclaimId" : "4714007"
+}
